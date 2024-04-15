@@ -70,12 +70,6 @@ public class GameManagerScript : MonoBehaviour
 		{
 			int playerIndex = GetPlayerIndex();
 
-			/*
-			 * playerIndex+1のインデックスのものと交換するので
-			 * playerIndex-1よりさらに小さいインデックスのときのみ
-			 * 交換を行う
-			*/
-
 			// 移動処理
 			MoveNumber(1, playerIndex, playerIndex + 1);
             // 出力
